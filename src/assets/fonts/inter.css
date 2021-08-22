@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'SourceSansProRegular';
+	src: url('SourceSansPro-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SourceSansProBold';
+	src: url('SourceSansPro-Bold.ttf') format('ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('Inter-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}

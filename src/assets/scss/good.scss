@@ -1,0 +1,65 @@
+@import './components';
+
+.good {
+    background-color: $color-background-white;
+    box-shadow: 0px 20px 30px 0px #0000000A;
+    position: relative;
+
+    &:hover,
+    &:hover > .good__delete {
+        cursor: pointer;
+        display: block;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    &__content {
+        padding: $size-16 $size-16 $size-24 $size-16;
+        text-align: start;
+        color: $color-grey;
+    }
+
+    &__title {
+        font-family: $font-bold;
+        font-weight: 600;
+        font-size: $size-20;
+        line-height: $size-25;
+        margin: 0;
+    }
+
+    &__info {
+        font-family: $font-regular;
+        font-weight: 400;
+        font-size: $size-16;
+        line-height: $size-20;
+        margin: 0;
+        padding-top: 16px;
+        padding-bottom: 32px;
+    }
+
+    &__price {
+        font-family: $font-bold;
+        font-weight: 600;
+        font-size: $size-24;
+        line-height: 30px;
+        
+    }
+
+    &__delete {
+        display: none;
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        z-index: 1;
+
+        background-color: #FF8484;
+        background-image: url('~@/assets/images/delete.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        top: -8px;
+        right: -8px;
+    }
+}
